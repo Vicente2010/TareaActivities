@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/pad"
+    tools:context=".ConfirmarDatos">
+
+    <TextView
+        android:id="@+id/tvConfirmar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirmar"
+        android:textSize="@dimen/confirmar"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hintNombre"
+        app:layout_constraintTop_toBottomOf="@+id/tvConfirmar"
+        android:textSize="@dimen/textviews"/>
+
+    <TextView
+        android:id="@+id/tvFechaNacimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hintFechaNacimiento"
+        app:layout_constraintTop_toBottomOf="@+id/tvNombre" />
+
+    <TextView
+        android:id="@+id/tvTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hintTelefono"
+        app:layout_constraintTop_toBottomOf="@+id/tvFechaNacimiento" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hintEmail"
+        app:layout_constraintTop_toBottomOf="@+id/tvTelefono" />
+
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hintDescripción"
+        app:layout_constraintTop_toBottomOf="@+id/tvEmail" />
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnEditar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDescripcion"
+        app:layout_constraintVertical_bias="0.274" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TareaActivities</string>
+    <string name="saludo">Ingrese la información solicitada</string>
+    <string name="hintNombre">Nombre completo</string>
+    <string name="hintTelefono">Número de teléfono</string>
+    <string name="hintEmail">Email</string>
+    <string name="hintDescripción">Descripción del contacto</string>
+    <string name="hintFechaNacimiento">Fecha de nacimiento</string>
+    <string name="msgBoton">Siguiente</string>
+
+    <string name="confirmar">Confirmar Datos</string>
+    <string name="btnEditar">Editar Datos</string>
+
+    <string name="pnombre">nombre</string>
+    <string name="pdia">dia</string>
+    <string name="pmes">mes</string>
+    <string name="pyear">año</string>
+    <string name="ptelefono">telefono</string>
+    <string name="pemail">email</string>
+    <string name="pdescripcion">descripcion</string>
+    <string name="pfecha">fechaNacimiento</string>
+</resources>
